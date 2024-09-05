@@ -20,14 +20,15 @@ public class UnitConversion {
         unitsMap.put("miles", 1.0);
         String unitFrom = "";
         String unitTo = "";
-        int unit = 0;
+        double unit = 0;
         double answer;
 
         if (args.length == 3) {
             // Assign inputs
             unitFrom = args[0];
             unitTo = args[1];
-            unit = Integer.parseInt(args[2]);
+//            unit = Integer.parseInt(args[2]);
+            unit = Double.parseDouble(args[2]);
             // Print a summary of the conversion to be done
             System.out.print(unit + " " + unitFrom + " to " + unitTo + ": ");
         }
@@ -42,7 +43,7 @@ public class UnitConversion {
         System.out.print(String.format("%.2f", answer) + " " + unitTo);
     }
 
-    public static double Convert(String unitFrom, String unitTo, int unit) {
+    public static double Convert(String unitFrom, String unitTo, double unit) {
         // Initialize the starting number
         double answer = unit;
 
