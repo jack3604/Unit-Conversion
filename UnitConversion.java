@@ -6,7 +6,7 @@ public class UnitConversion {
     final static double CUBITS_TO_FEET = 1.5;     // 18 inches in 1 cubit (Google says an ancient form of measurement)
     final static double STEPS_TO_CUBITS = 1.5;    // 2.25 feet or 27 inches in a walking step
     final static double YARDS_TO_STEPS = 1.3333;  // 1 and 1/3 steps in a yard.
-    final static double MILES_TO_YARDS = 1760.0;
+    final static double MILES_TO_YARDS = 1760.0;  // 1760 yards in a mile
     // LinkedHashMap to be referenced for the conversions
     public static HashMap<String, Double> unitsMap = new HashMap<>();
 
