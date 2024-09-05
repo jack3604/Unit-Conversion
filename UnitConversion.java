@@ -27,7 +27,6 @@ public class UnitConversion {
             // Assign inputs
             unitFrom = args[0];
             unitTo = args[1];
-//            unit = Integer.parseInt(args[2]);
             unit = Double.parseDouble(args[2]);
             // Print a summary of the conversion to be done
             System.out.print(unit + " " + unitFrom + " to " + unitTo + ": ");
